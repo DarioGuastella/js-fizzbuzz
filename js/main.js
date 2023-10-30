@@ -4,7 +4,7 @@ for (let i = 1; i <= 100; i++) {
         const newDiv = document.createElement("div");
         const newParagraph = document.createElement("p");
         newDiv.innerHTML = "FizzBuzz" ;
-        newDiv.classList.add("prova");
+        newDiv.classList.add("box");
         newDiv.classList.add("bgRed");
         container.append(newDiv);
         newDiv.append(newParagraph);
@@ -13,7 +13,7 @@ for (let i = 1; i <= 100; i++) {
         const newDiv = document.createElement("div");
         const newParagraph = document.createElement("p");
         newDiv.innerHTML = "Buzz";
-        newDiv.classList.add("prova");
+        newDiv.classList.add("box");
         newDiv.classList.add("bgOrange");
         container.append(newDiv);
         newDiv.append(newParagraph);
@@ -22,7 +22,7 @@ for (let i = 1; i <= 100; i++) {
         const newDiv = document.createElement("div");
         const newParagraph = document.createElement("p");
         newDiv.innerHTML = "Fizz" ;
-        newDiv.classList.add("prova");
+        newDiv.classList.add("box");
         newDiv.classList.add("bgGreen");
         container.append(newDiv);
         newDiv.append(newParagraph);
@@ -31,7 +31,7 @@ for (let i = 1; i <= 100; i++) {
         const newDiv = document.createElement("div");
         const newParagraph = document.createElement("p");
         newDiv.innerHTML = i ;
-        newDiv.classList.add("prova");
+        newDiv.classList.add("box");
         newDiv.classList.add("bgBlue");
         container.append(newDiv);
         newDiv.append(newParagraph);
