@@ -8,11 +8,9 @@ for (let i = 1; i <= 100; i++) {
     if (i % 15 == 0) {
         newParagraph.innerHTML = "FizzBuzz" ;
         newDiv.classList.add("bgRed");
-        console.log("FizzBuzz");
     } else if (i % 5 == 0) {
         newParagraph.innerHTML = "Buzz";
         newDiv.classList.add("bgOrange");
-        console.log("Buzz");
     } else if (i % 3 == 0) {
         newParagraph.innerHTML = "Fizz" ;
         newDiv.classList.add("bgGreen");
@@ -20,7 +18,6 @@ for (let i = 1; i <= 100; i++) {
     } else {
         newParagraph.innerHTML = i ;
         newDiv.classList.add("bgBlue");
-        console.log(i);
     }
 }
 console.log("Conteggio completato");
